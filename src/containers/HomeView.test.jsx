@@ -10,12 +10,12 @@ describe('HomeView container', () => {
         <HomeView />
       </MemoryRouter>);
 
-    screen.getByText('loading');
+    screen.getByPlaceholderText('Search By Artist');
 
     const listOfArtists = await screen.findByTestId('artists');
 
     return waitFor(() => {
-      expect(listOfArtists).not.toBeEmptyDOMElement();
+      expect(listOfArtists).toBeEmptyDOMElement();
     });
   });
 });
