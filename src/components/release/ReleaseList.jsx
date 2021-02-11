@@ -10,7 +10,7 @@ function ReleaseList({ releases }) {
   ));
     
   return (
-    <ul >
+    <ul data-testid="releases" >
       {releaseElements}
     </ul>
   );

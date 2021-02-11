@@ -1,7 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function Release({ id, title, date }) {
+// optional import prop of 'id'
+function Release({ title, date }) {
   return (
     <div>
       <h3>{title}</h3>

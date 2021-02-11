@@ -1,14 +1,24 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import Loading from '../components/loading/Loading';
 import ReleaseList from '../components/release/ReleaseList';
 import { useReleases } from '../state/artistHooks';
 
-function ArtistView() {
-  const { loading, releases } = useReleases();
+function ArtistView({ match }) {
+  const { loading, releases } = useReleases(match.params.id);
+  console.log(match.params.id);
+
   
   if(loading) return <Loading />;
   return <ReleaseList releases={releases} />;
 }
 
-export default ArtistView;
+ArtistView.propTypes = {
+  match: PropTypes.shape({
+    params: PropTypes.shape({
+      id: PropTypes.string.isRequired
+    }).isRequired
+  }).isRequired
+};
 
+export default ArtistView;
