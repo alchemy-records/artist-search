@@ -1,17 +1,13 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import ReleaseList from '../components/release/ReleaseList';
+import { useReleases } from '../state/artistHooks';
 
-function ArtistView(props) {
-    return (
-        <div>
-            
-        </div>
-    )
+function ArtistView() {
+  const {loading, releases} = useReleases();
+  
+  if(loading) return 'loading';
+  return <ReleaseList />;
 }
-
-ArtistView.propTypes = {
-
-};
 
 export default ArtistView;
 
