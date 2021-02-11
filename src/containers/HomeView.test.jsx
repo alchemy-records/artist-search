@@ -2,8 +2,8 @@ import React from 'react';
 import { render, screen, waitFor } from '@testing-library/react';
 import HomeView from './HomeView';
 
-describe('App component', () => {
-  it('renders App', async() => {
+describe('HomeView container', () => {
+  it('renders Artists on the page upon search', async() => {
     render(<HomeView />);
 
     screen.getByText('loading');
