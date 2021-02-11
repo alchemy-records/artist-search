@@ -7,7 +7,7 @@ function ArtistView() {
   const { loading, releases } = useReleases();
   
   if(loading) return <Loading />;
-  return <ReleaseList />;
+  return <ReleaseList releases={releases} />;
 }
 
 export default ArtistView;
