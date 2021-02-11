@@ -6,11 +6,9 @@ describe('HomeView container', () => {
   it('renders Artists on the page upon search', async() => {
     render(<ArtistView />);
 
-    screen.getByText('loading');
+    screen.getByAltText('loading');
   
-    //   screen.getByPlaceholderText('Search By Artist');
-  
-    //   const listOfArtists = await screen.findByTestId('artists');
+    const listOfReleases = await screen.findByTestId('releases');
   
     //   return waitFor(() => {
     //     expect(listOfArtists).toBeEmptyDOMElement();

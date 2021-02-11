@@ -1,9 +1,5 @@
 import React from 'react';
 
 export default function Loading() {
-  return (
-    <>
-      <img src="https://media.giphy.com/media/y1ZBcOGOOtlpC/giphy.gif" />
-    </>
-  );
+  return <img src="https://i.imgur.com/kv2oHwT.gif" alt="loading" />;
 }
