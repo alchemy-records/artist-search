@@ -9,6 +9,10 @@ describe('HomeView container', () => {
     screen.getByText('loading');
 
     const listOfArtists = await screen.findByTestId('artists');
+
+    return waitFor(() => {
+      expect(listOfArtists).not.toBeEmptyDOMElement();
+    });
   });
 });
   
