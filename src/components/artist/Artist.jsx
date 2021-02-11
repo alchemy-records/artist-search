@@ -18,4 +18,3 @@ Artist.propTypes = {
 };
 
 export default Artist;
-

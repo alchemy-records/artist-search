@@ -1,19 +1,30 @@
 import React, { useState } from 'react';
-import PropTypes from 'prop-types';
 import { useArtists } from '../state/artistHooks';
 import ArtistList from '../components/artist/ArtistList';
 
 
-function HomeView(props) {
-  const { loading, artists } = useArtists();
+function HomeView() {
+  const [name, setName] = useState('');
 
-  if (loading) return 'loading'
-  return <ArtistList artists={artists} />
+  const { loading, artists } = useArtists(name);
+
+  const handleChange = ({ target }) => {
+    setName(target.value)
+  }
+
+  return (
+    <>
+      <input
+        type='text'
+        value={name}
+        placeholder='Search By Artist'
+        onChange={handleChange} />
+      {
+        loading && (name) ? <h1>loading</h1>
+          : <ArtistList artists={artists} />
+      }
+    </>
+  )
 }
 
-HomeView.propTypes = {
-
-};
-
 export default HomeView;
-
