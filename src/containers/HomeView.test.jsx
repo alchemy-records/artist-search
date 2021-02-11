@@ -1,12 +1,22 @@
 import React from 'react';
 import { render, screen, waitFor } from '@testing-library/react';
 import HomeView from './HomeView';
+import { MemoryRouter } from 'react-router-dom';
 
-describe('App component', () => {
-  it('renders App', () => {
-    render(<HomeView />);
+describe('HomeView container', () => {
+  it('renders Artists on the page upon search', async() => {
+    render(
+      <MemoryRouter>
+        <HomeView />
+      </MemoryRouter>);
 
-    screen.getByText('loading');
+    screen.getByPlaceholderText('Search By Artist');
+
+    const listOfArtists = await screen.findByTestId('artists');
+
+    return waitFor(() => {
+      expect(listOfArtists).toBeEmptyDOMElement();
+    });
   });
 });
   
