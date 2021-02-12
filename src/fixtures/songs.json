@@ -1,0 +1,86 @@
+{
+    "recordings": [
+        {
+            "video": false,
+            "first-release-date": "1960",
+            "id": "1c5fba23-b16c-46ba-bd67-c832628bab44",
+            "title": "I’m King",
+            "length": 140893,
+            "disambiguation": ""
+        },
+        {
+            "video": false,
+            "first-release-date": "1960",
+            "title": "Partin’ Time",
+            "id": "2d0a18b1-4584-4440-9325-1d0e3c101365",
+            "length": 181000,
+            "disambiguation": ""
+        },
+        {
+            "disambiguation": "",
+            "id": "33f43367-ea79-48ad-a577-3e9b8315a1d1",
+            "length": 160000,
+            "title": "I’ll Survive",
+            "video": false,
+            "first-release-date": "1960"
+        },
+        {
+            "first-release-date": "1960",
+            "video": false,
+            "title": "You’re on the Top",
+            "id": "35f0fac7-9868-4f6d-9f2d-0439ebeb83bb",
+            "length": 170000,
+            "disambiguation": ""
+        },
+        {
+            "video": false,
+            "first-release-date": "1960",
+            "length": 186000,
+            "id": "4671d282-0e68-44a6-8439-46046adc4f82",
+            "title": "What Way to Go",
+            "disambiguation": ""
+        },
+        {
+            "length": 161000,
+            "id": "8a2085b2-2291-4598-a4e2-0ddc954a00dd",
+            "title": "If I Lost You",
+            "disambiguation": "",
+            "first-release-date": "1960",
+            "video": false
+        },
+        {
+            "first-release-date": "1960",
+            "video": false,
+            "disambiguation": "",
+            "title": "Good Man Gone Bad",
+            "id": "95fc9299-2cd7-41e4-a377-7d98c8d5bad8",
+            "length": 165000
+        },
+        {
+            "title": "Feel Like a Million",
+            "id": "a7498ac7-d248-4044-9bb9-7b17747e794a",
+            "length": 211000,
+            "disambiguation": "",
+            "video": false,
+            "first-release-date": "1960"
+        },
+        {
+            "first-release-date": "1960",
+            "video": false,
+            "disambiguation": "",
+            "length": 193560,
+            "id": "afe38efa-fe79-4647-b1c0-61bed25743a9",
+            "title": "I’ve Got a Right to Love My Baby"
+        },
+        {
+            "title": "Long Nights (The Feeling They Call the Blues)",
+            "id": "f9ac4521-8aeb-4728-a70d-53b8ba1d878c",
+            "length": 211000,
+            "disambiguation": "",
+            "first-release-date": "1960",
+            "video": false
+        }
+    ],
+    "recording-count": 10,
+    "recording-offset": 0
+}
