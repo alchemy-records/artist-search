@@ -7,6 +7,10 @@ describe('SongView container', () => {
     render(
       <SongView /> 
     );
+
+    screen.getByAltText('loading');
+
+    const lyrics = await screen.findByTestId('lyrics');
   });
 });
 
