@@ -2,7 +2,13 @@
 export const getArtistsByName = (name) => {
   return fetch(`http://musicbrainz.org/ws/2/artist?query=${name}&fmt=json&limit=25`)
     .then(res => res.json())
-    .then(res => res.artists);
+    .then(res => res.artists)
+    .then(artists => artists.map(
+      item => ({
+        id: item.id,
+        artist: item.name,
+      })
+    ));
 };
 
 export const getReleasesById = (id) => {

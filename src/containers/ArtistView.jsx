@@ -8,13 +8,16 @@ function ArtistView({ match }) {
   const { loading, releases } = useReleases(match.params.id);
   
   if(loading) return <Loading />;
-  return <ReleaseList releases={releases} />;
+  return <ReleaseList 
+    releases={releases} 
+    artist={match.params.name}/>;
 }
 
 ArtistView.propTypes = {
   match: PropTypes.shape({
     params: PropTypes.shape({
-      id: PropTypes.string.isRequired
+      id: PropTypes.string.isRequired,
+      name: PropTypes.string.isRequired
     }).isRequired
   }).isRequired
 };

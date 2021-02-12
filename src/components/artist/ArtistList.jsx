@@ -8,7 +8,7 @@ function ArtistList({ artists }) {
     <li key={artist.id}>
       <Artist
         id={artist.id}
-        name={artist.name} />
+        artist={artist.artist} />
     </li>
   ));
 
@@ -24,7 +24,7 @@ function ArtistList({ artists }) {
 ArtistList.propTypes = {
   artists: PropTypes.arrayOf(PropTypes.shape({
     id: PropTypes.string.isRequired,
-    name: PropTypes.string.isRequired
+    artist: PropTypes.string.isRequired
   })).isRequired
 };
 
