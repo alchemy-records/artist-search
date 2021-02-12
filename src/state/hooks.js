@@ -1,6 +1,6 @@
 /* eslint-disable max-len */
 import { useState, useEffect } from 'react';
-import { getArtistsByName, getReleasesById, getSongsById } from '../services/fetchApi';
+import { getArtistsByName, getReleasesById, getSongsById, getLyrics } from '../services/fetchApi';
 
 export const useArtists = (name) => {
   const [loading, setLoading] = useState(true);
@@ -61,4 +61,26 @@ export const useSongs = (id) => {
     loading,
     songs
   };
+};
+
+export const useLyrics = (artist, title) => {
+  const [loading, setLoading] = useState(true);
+  const [lyrics, setLyrics] = useState({});
+
+  useEffect(() => {
+    if(!title || !artist) return;
+    setLoading(true);
+    getLyrics(artist, title)
+      .then(lyrics => {
+        setLoading(false);
+        setLyrics(lyrics);
+      });
+
+  }, [artist, title]);
+
+  return {
+    loading, 
+    lyrics
+  };
+
 };
