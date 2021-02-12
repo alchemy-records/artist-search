@@ -1,0 +1,1059 @@
+{
+    "release-count": 555,
+    "release-offset": 0,
+    "releases": [
+        {
+            "text-representation": {
+                "language": "eng",
+                "script": "Latn"
+            },
+            "disambiguation": "BMG club edition",
+            "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+            "status": "Official",
+            "quality": "normal",
+            "cover-art-archive": {
+                "back": true,
+                "front": true,
+                "darkened": false,
+                "artwork": true,
+                "count": 1
+            },
+            "asin": null,
+            "id": "0ec052ee-8c50-48f3-8682-501778dfc823",
+            "title": "Parachutes",
+            "country": "US",
+            "barcode": "",
+            "release-events": [
+                {
+                    "date": "2000-11-07",
+                    "area": {
+                        "disambiguation": "",
+                        "iso-3166-1-codes": [
+                            "US"
+                        ],
+                        "id": "489ce91b-6658-3307-9877-795b68554c98",
+                        "type": null,
+                        "sort-name": "United States",
+                        "type-id": null,
+                        "name": "United States"
+                    }
+                }
+            ],
+            "packaging": "Jewel Case",
+            "date": "2000-11-07",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe"
+        },
+        {
+            "country": "XW",
+            "title": "Yellow",
+            "id": "157c3d31-3977-45fb-a70f-1b4eed779345",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "packaging": "None",
+            "date": "2000-06-26",
+            "release-events": [
+                {
+                    "date": "2000-06-26",
+                    "area": {
+                        "sort-name": "[Worldwide]",
+                        "type": null,
+                        "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+                        "disambiguation": "",
+                        "iso-3166-1-codes": [
+                            "XW"
+                        ],
+                        "name": "[Worldwide]",
+                        "type-id": null
+                    }
+                }
+            ],
+            "barcode": null,
+            "disambiguation": "",
+            "text-representation": {
+                "script": "Latn",
+                "language": "eng"
+            },
+            "asin": null,
+            "cover-art-archive": {
+                "darkened": false,
+                "count": 0,
+                "artwork": false,
+                "front": false,
+                "back": false
+            },
+            "quality": "normal",
+            "status": "Official",
+            "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b"
+        },
+        {
+            "disambiguation": "",
+            "text-representation": {
+                "language": "eng",
+                "script": "Latn"
+            },
+            "cover-art-archive": {
+                "darkened": false,
+                "count": 0,
+                "artwork": false,
+                "front": false,
+                "back": false
+            },
+            "quality": "normal",
+            "asin": "B000050ABB",
+            "packaging-id": "36327bc2-f691-3d66-80e5-bd03cec6060a",
+            "status": "Official",
+            "country": "GB",
+            "id": "1d536afc-f480-42c2-b3ea-dba9e37323a5",
+            "title": "Trouble",
+            "date": "2000-10-23",
+            "packaging": "Slim Jewel Case",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "barcode": "724388939225",
+            "release-events": [
+                {
+                    "area": {
+                        "type-id": null,
+                        "name": "United Kingdom",
+                        "type": null,
+                        "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+                        "sort-name": "United Kingdom",
+                        "disambiguation": "",
+                        "iso-3166-1-codes": [
+                            "GB"
+                        ]
+                    },
+                    "date": "2000-10-23"
+                }
+            ]
+        },
+        {
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "date": "2000-06-26",
+            "packaging": null,
+            "release-events": [
+                {
+                    "area": {
+                        "name": "Australia",
+                        "type-id": null,
+                        "iso-3166-1-codes": [
+                            "AU"
+                        ],
+                        "disambiguation": "",
+                        "type": null,
+                        "sort-name": "Australia",
+                        "id": "106e0bec-b638-3b37-b731-f53d507dc00e"
+                    },
+                    "date": "2000-06-26"
+                }
+            ],
+            "barcode": "724388920124",
+            "country": "AU",
+            "title": "Yellow",
+            "id": "2b2ff1a3-fd81-3482-a1ec-2f64ca97be8e",
+            "asin": null,
+            "quality": "normal",
+            "cover-art-archive": {
+                "artwork": true,
+                "count": 3,
+                "darkened": false,
+                "front": true,
+                "back": false
+            },
+            "status": "Official",
+            "packaging-id": null,
+            "disambiguation": "",
+            "text-representation": {
+                "language": "eng",
+                "script": "Latn"
+            }
+        },
+        {
+            "title": "Trouble",
+            "id": "3a490951-eb67-3410-a324-08265ceba82b",
+            "country": "GB",
+            "release-events": [
+                {
+                    "area": {
+                        "type-id": null,
+                        "name": "United Kingdom",
+                        "sort-name": "United Kingdom",
+                        "type": null,
+                        "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+                        "disambiguation": "",
+                        "iso-3166-1-codes": [
+                            "GB"
+                        ]
+                    },
+                    "date": "2000-10-23"
+                }
+            ],
+            "barcode": "724388940825",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "packaging": "Digipak",
+            "date": "2000-10-23",
+            "text-representation": {
+                "language": "eng",
+                "script": "Latn"
+            },
+            "disambiguation": "",
+            "status": "Official",
+            "packaging-id": "8f931351-d2e2-310f-afc6-37b89ddba246",
+            "asin": "B000050XIJ",
+            "cover-art-archive": {
+                "darkened": false,
+                "count": 0,
+                "artwork": false,
+                "front": false,
+                "back": false
+            },
+            "quality": "normal"
+        },
+        {
+            "cover-art-archive": {
+                "darkened": false,
+                "artwork": false,
+                "count": 0,
+                "front": false,
+                "back": false
+            },
+            "quality": "normal",
+            "asin": "B00004SA6A",
+            "packaging-id": "8f931351-d2e2-310f-afc6-37b89ddba246",
+            "status": "Official",
+            "disambiguation": "",
+            "text-representation": {
+                "language": "eng",
+                "script": "Latn"
+            },
+            "date": "2000-03-06",
+            "packaging": "Digipak",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "barcode": "724388830621",
+            "release-events": [
+                {
+                    "area": {
+                        "name": "United Kingdom",
+                        "type-id": null,
+                        "disambiguation": "",
+                        "iso-3166-1-codes": [
+                            "GB"
+                        ],
+                        "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+                        "type": null,
+                        "sort-name": "United Kingdom"
+                    },
+                    "date": "2000-03-06"
+                }
+            ],
+            "country": "GB",
+            "id": "3cca4cc5-8aa1-39e9-b72e-f7287794ab5e",
+            "title": "Shiver"
+        },
+        {
+            "text-representation": {
+                "language": "eng",
+                "script": "Latn"
+            },
+            "disambiguation": "",
+            "status": "Official",
+            "packaging-id": "8f931351-d2e2-310f-afc6-37b89ddba246",
+            "asin": "B00003WG5G",
+            "quality": "normal",
+            "cover-art-archive": {
+                "darkened": false,
+                "artwork": true,
+                "count": 1,
+                "back": false,
+                "front": true
+            },
+            "title": "The Blue Room E.P.",
+            "id": "3f3cc644-b064-3f26-8fda-10e44e692f93",
+            "country": "GB",
+            "release-events": [
+                {
+                    "area": {
+                        "type": null,
+                        "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+                        "sort-name": "United Kingdom",
+                        "iso-3166-1-codes": [
+                            "GB"
+                        ],
+                        "disambiguation": "",
+                        "name": "United Kingdom",
+                        "type-id": null
+                    },
+                    "date": "1999-10-11"
+                }
+            ],
+            "barcode": "724388782524",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "date": "1999-10-11",
+            "packaging": "Digipak"
+        },
+        {
+            "disambiguation": "",
+            "text-representation": {
+                "script": "Latn",
+                "language": "eng"
+            },
+            "asin": "B00004U9MS",
+            "cover-art-archive": {
+                "count": 9,
+                "artwork": true,
+                "darkened": false,
+                "front": true,
+                "back": true
+            },
+            "quality": "high",
+            "status": "Official",
+            "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+            "country": "GB",
+            "title": "Parachutes",
+            "id": "435fc965-9121-461e-b8da-d9b505c9dc9b",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "date": "2000-07-10",
+            "packaging": "Jewel Case",
+            "release-events": [
+                {
+                    "area": {
+                        "type-id": null,
+                        "name": "United Kingdom",
+                        "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+                        "type": null,
+                        "sort-name": "United Kingdom",
+                        "iso-3166-1-codes": [
+                            "GB"
+                        ],
+                        "disambiguation": ""
+                    },
+                    "date": "2000-07-10"
+                },
+                {
+                    "area": {
+                        "iso-3166-1-codes": [
+                            "FR"
+                        ],
+                        "disambiguation": "",
+                        "sort-name": "France",
+                        "type": null,
+                        "id": "08310658-51eb-3801-80de-5a0739207115",
+                        "name": "France",
+                        "type-id": null
+                    },
+                    "date": "2000-07-16"
+                },
+                {
+                    "area": {
+                        "iso-3166-1-codes": [
+                            "DE"
+                        ],
+                        "disambiguation": "",
+                        "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+                        "type": null,
+                        "sort-name": "Germany",
+                        "type-id": null,
+                        "name": "Germany"
+                    },
+                    "date": "2000-07-21"
+                }
+            ],
+            "barcode": "724352778324"
+        },
+        {
+            "title": "Shiver",
+            "id": "45e826fb-74af-4c72-bc66-635c112631a5",
+            "country": "GB",
+            "release-events": [
+                {
+                    "date": "2000-03-06",
+                    "area": {
+                        "type": null,
+                        "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+                        "sort-name": "United Kingdom",
+                        "disambiguation": "",
+                        "iso-3166-1-codes": [
+                            "GB"
+                        ],
+                        "name": "United Kingdom",
+                        "type-id": null
+                    }
+                }
+            ],
+            "barcode": "724388830676",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "date": "2000-03-06",
+            "packaging": "Cardboard/Paper Sleeve",
+            "text-representation": {
+                "script": null,
+                "language": "eng"
+            },
+            "disambiguation": "",
+            "status": "Official",
+            "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+            "asin": null,
+            "quality": "normal",
+            "cover-art-archive": {
+                "darkened": false,
+                "artwork": true,
+                "count": 4,
+                "back": true,
+                "front": true
+            }
+        },
+        {
+            "title": "Brothers & Sisters",
+            "id": "46eb8e0b-96c6-4367-a33d-dec0cc05cb2f",
+            "country": "GB",
+            "release-events": [
+                {
+                    "date": "1999-04-19",
+                    "area": {
+                        "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+                        "type": null,
+                        "sort-name": "United Kingdom",
+                        "disambiguation": "",
+                        "iso-3166-1-codes": [
+                            "GB"
+                        ],
+                        "name": "United Kingdom",
+                        "type-id": null
+                    }
+                }
+            ],
+            "barcode": "5020422196872",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "date": "1999-04-19",
+            "packaging": "Cardboard/Paper Sleeve",
+            "text-representation": {
+                "language": "eng",
+                "script": "Latn"
+            },
+            "disambiguation": "",
+            "status": "Official",
+            "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+            "asin": "B00004XZ4E",
+            "quality": "normal",
+            "cover-art-archive": {
+                "back": false,
+                "front": false,
+                "count": 0,
+                "artwork": false,
+                "darkened": false
+            }
+        },
+        {
+            "date": "2000-10-29",
+            "packaging": "Cardboard/Paper Sleeve",
+            "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+            "barcode": "",
+            "release-events": [
+                {
+                    "date": "2000-10-29",
+                    "area": {
+                        "name": "United Kingdom",
+                        "type-id": null,
+                        "disambiguation": "",
+                        "iso-3166-1-codes": [
+                            "GB"
+                        ],
+                        "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+                        "type": null,
+                        "sort-name": "United Kingdom"
+                    }
+                }
+            ],
+            "country": "GB",
+            "id": "4d637980-2f5f-4fd6-8823-98d27c3fccd9",
+            "title": "Acoustic",
+            "quality": "normal",
+            "cover-art-archive": {
+                "darkened": false,
+                "count": 1,
+                "artwork": true,
+                "back": false,
+                "front": true
+            },
+            "asin": "B001IO51J2",
+            "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+            "status": "Promotion",
+            "disambiguation": "",
+            "text-representation": {
+                "language": "eng",
+                "script": "Latn"
+            }
+        },
+        {
+            "cover-art-archive": {
+                "back": false,
+                "front": false,
+                "darkened": false,
+                "artwork": false,
+                "count": 0
+            },
+            "quality": "normal",
+            "asin": "B000WFMZEW",
+            "packaging-id": null,
+            "status": "Promotion",
+            "disambiguation": "",
+            "text-representation": {
+                "language": "eng",
+                "script": "Latn"
+            },
+            "date": "2000",
+            "packaging": null,
+            "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+            "barcode": null,
+            "release-events": [
+                {
+                    "date": "2000",
+                    "area": {
+                        "iso-3166-1-codes": [
+                            "AU"
+                        ],
+                        "disambiguation": "",
+                        "type": null,
+                        "id": "106e0bec-b638-3b37-b731-f53d507dc00e",
+                        "sort-name": "Australia",
+                        "name": "Australia",
+                        "type-id": null
+                    }
+                }
+            ],
+            "country": "AU",
+            "id": "79767e07-a6aa-3cf7-91cf-5530768cd269",
+            "title": "Acoustic"
+        },
+        {
+            "asin": "B00004VULI",
+            "quality": "normal",
+            "cover-art-archive": {
+                "count": 1,
+                "artwork": true,
+                "darkened": false,
+                "back": false,
+                "front": true
+            },
+            "status": "Official",
+            "packaging-id": "8f931351-d2e2-310f-afc6-37b89ddba246",
+            "disambiguation": "",
+            "text-representation": {
+                "language": "eng",
+                "script": "Latn"
+            },
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "date": "2000-06-26",
+            "packaging": "Digipak",
+            "release-events": [
+                {
+                    "date": "2000-06-26",
+                    "area": {
+                        "type-id": null,
+                        "name": "United Kingdom",
+                        "disambiguation": "",
+                        "iso-3166-1-codes": [
+                            "GB"
+                        ],
+                        "sort-name": "United Kingdom",
+                        "type": null,
+                        "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed"
+                    }
+                }
+            ],
+            "barcode": "724388885126",
+            "country": "GB",
+            "title": "Yellow",
+            "id": "7a1e5c57-1739-4ef8-8c74-8ae0dd00a26c"
+        },
+        {
+            "packaging": "Jewel Case",
+            "date": "2000-08-02",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "barcode": "9326165001951",
+            "release-events": [
+                {
+                    "date": "2000-08-02",
+                    "area": {
+                        "type-id": null,
+                        "name": "Australia",
+                        "iso-3166-1-codes": [
+                            "AU"
+                        ],
+                        "disambiguation": "",
+                        "type": null,
+                        "sort-name": "Australia",
+                        "id": "106e0bec-b638-3b37-b731-f53d507dc00e"
+                    }
+                }
+            ],
+            "country": "AU",
+            "id": "8a23e270-7e21-4c10-a949-290a879830d7",
+            "title": "Parachutes",
+            "cover-art-archive": {
+                "back": false,
+                "front": true,
+                "darkened": false,
+                "count": 1,
+                "artwork": true
+            },
+            "quality": "normal",
+            "asin": "B00005Y7KH",
+            "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+            "status": "Official",
+            "disambiguation": "",
+            "text-representation": {
+                "language": "eng",
+                "script": "Latn"
+            }
+        },
+        {
+            "disambiguation": "",
+            "text-representation": {
+                "language": "eng",
+                "script": "Latn"
+            },
+            "quality": "normal",
+            "cover-art-archive": {
+                "back": false,
+                "front": true,
+                "darkened": false,
+                "artwork": true,
+                "count": 1
+            },
+            "asin": null,
+            "packaging-id": "36327bc2-f691-3d66-80e5-bd03cec6060a",
+            "status": "Official",
+            "country": "GB",
+            "id": "8d2a5f0a-2140-4e74-89ae-ac7f314e7f59",
+            "title": "Safety E.P.",
+            "date": "1998-05-18",
+            "packaging": "Slim Jewel Case",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "barcode": "",
+            "release-events": [
+                {
+                    "date": "1998-05-18",
+                    "area": {
+                        "iso-3166-1-codes": [
+                            "GB"
+                        ],
+                        "disambiguation": "",
+                        "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+                        "type": null,
+                        "sort-name": "United Kingdom",
+                        "name": "United Kingdom",
+                        "type-id": null
+                    }
+                }
+            ]
+        },
+        {
+            "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+            "status": "Official",
+            "cover-art-archive": {
+                "back": true,
+                "front": true,
+                "count": 7,
+                "artwork": true,
+                "darkened": false
+            },
+            "quality": "high",
+            "asin": "B0000508U6",
+            "text-representation": {
+                "script": "Latn",
+                "language": "eng"
+            },
+            "disambiguation": "",
+            "barcode": "067003016223",
+            "release-events": [
+                {
+                    "area": {
+                        "type": null,
+                        "sort-name": "United States",
+                        "id": "489ce91b-6658-3307-9877-795b68554c98",
+                        "disambiguation": "",
+                        "iso-3166-1-codes": [
+                            "US"
+                        ],
+                        "name": "United States",
+                        "type-id": null
+                    },
+                    "date": "2000-11-07"
+                }
+            ],
+            "date": "2000-11-07",
+            "packaging": "Jewel Case",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "id": "8e2a9a3f-1738-3829-9eac-7b490d194870",
+            "title": "Parachutes",
+            "country": "US"
+        },
+        {
+            "release-events": [
+                {
+                    "area": {
+                        "name": "United Kingdom",
+                        "type-id": null,
+                        "type": null,
+                        "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+                        "sort-name": "United Kingdom",
+                        "iso-3166-1-codes": [
+                            "GB"
+                        ],
+                        "disambiguation": ""
+                    },
+                    "date": "1998"
+                }
+            ],
+            "barcode": "",
+            "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+            "date": "1998",
+            "packaging": null,
+            "title": "Ode to Deodorant / Brothers + Sisters",
+            "id": "8f087da3-05cd-4a84-9543-cdaa69b1dec9",
+            "country": "GB",
+            "status": "Promotion",
+            "packaging-id": null,
+            "asin": null,
+            "quality": "normal",
+            "cover-art-archive": {
+                "front": false,
+                "back": false,
+                "artwork": true,
+                "count": 1,
+                "darkened": false
+            },
+            "text-representation": {
+                "language": "eng",
+                "script": "Latn"
+            },
+            "disambiguation": ""
+        },
+        {
+            "country": "JP",
+            "title": "Parachutes",
+            "id": "8fb50f96-279e-4d44-92aa-d49ea56f5c08",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "date": "2000-08-09",
+            "packaging": null,
+            "release-events": [
+                {
+                    "date": "2000-08-09",
+                    "area": {
+                        "name": "Japan",
+                        "type-id": null,
+                        "type": null,
+                        "sort-name": "Japan",
+                        "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                        "iso-3166-1-codes": [
+                            "JP"
+                        ],
+                        "disambiguation": ""
+                    }
+                }
+            ],
+            "barcode": "4988006784086",
+            "disambiguation": "",
+            "text-representation": {
+                "language": "eng",
+                "script": "Latn"
+            },
+            "asin": "B00004Y548",
+            "cover-art-archive": {
+                "count": 1,
+                "artwork": true,
+                "darkened": false,
+                "back": false,
+                "front": true
+            },
+            "quality": "normal",
+            "status": "Official",
+            "packaging-id": null
+        },
+        {
+            "disambiguation": "",
+            "text-representation": {
+                "language": "eng",
+                "script": "Latn"
+            },
+            "asin": null,
+            "quality": "normal",
+            "cover-art-archive": {
+                "artwork": true,
+                "count": 3,
+                "darkened": false,
+                "back": false,
+                "front": true
+            },
+            "status": "Official",
+            "packaging-id": null,
+            "country": "SE",
+            "title": "The Blue Room E.P.",
+            "id": "91c604e1-c4a4-4f6f-8b6b-c05af44ad0bb",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "packaging": null,
+            "date": "1999-10-25",
+            "release-events": [
+                {
+                    "area": {
+                        "type-id": null,
+                        "name": "Sweden",
+                        "iso-3166-1-codes": [
+                            "SE"
+                        ],
+                        "disambiguation": "",
+                        "type": null,
+                        "sort-name": "Sweden",
+                        "id": "23d10872-f5ae-3f0c-bf55-332788a16ecb"
+                    },
+                    "date": "1999-10-25"
+                }
+            ],
+            "barcode": null
+        },
+        {
+            "text-representation": {
+                "script": "Latn",
+                "language": "eng"
+            },
+            "disambiguation": "",
+            "status": "Official",
+            "packaging-id": null,
+            "asin": null,
+            "quality": "normal",
+            "cover-art-archive": {
+                "artwork": false,
+                "count": 0,
+                "darkened": false,
+                "front": false,
+                "back": false
+            },
+            "title": "Shiver",
+            "id": "988db7cc-66bd-4862-a216-57a8c33afc85",
+            "country": "AU",
+            "release-events": [
+                {
+                    "area": {
+                        "type-id": null,
+                        "name": "Australia",
+                        "iso-3166-1-codes": [
+                            "AU"
+                        ],
+                        "disambiguation": "",
+                        "type": null,
+                        "id": "106e0bec-b638-3b37-b731-f53d507dc00e",
+                        "sort-name": "Australia"
+                    },
+                    "date": "2000"
+                }
+            ],
+            "barcode": "724388851121",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "date": "2000",
+            "packaging": null
+        },
+        {
+            "text-representation": {
+                "script": "Latn",
+                "language": "eng"
+            },
+            "disambiguation": "",
+            "packaging-id": null,
+            "status": "Official",
+            "quality": "normal",
+            "cover-art-archive": {
+                "front": false,
+                "back": false,
+                "artwork": false,
+                "count": 0,
+                "darkened": false
+            },
+            "asin": null,
+            "id": "a7d5b6ba-6cda-35e8-a6ca-e95113533f46",
+            "title": "The Blue Room E.P.",
+            "country": "DE",
+            "barcode": "724388782524",
+            "release-events": [
+                {
+                    "area": {
+                        "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+                        "type": null,
+                        "sort-name": "Germany",
+                        "iso-3166-1-codes": [
+                            "DE"
+                        ],
+                        "disambiguation": "",
+                        "name": "Germany",
+                        "type-id": null
+                    },
+                    "date": "2000-05-02"
+                }
+            ],
+            "packaging": null,
+            "date": "2000-05-02",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe"
+        },
+        {
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "packaging": "Slim Jewel Case",
+            "date": "2000-10-26",
+            "release-events": [
+                {
+                    "date": "2000-10-26",
+                    "area": {
+                        "name": "Australia",
+                        "type-id": null,
+                        "disambiguation": "",
+                        "iso-3166-1-codes": [
+                            "AU"
+                        ],
+                        "sort-name": "Australia",
+                        "type": null,
+                        "id": "106e0bec-b638-3b37-b731-f53d507dc00e"
+                    }
+                }
+            ],
+            "barcode": "724387969322",
+            "country": "AU",
+            "title": "Trouble",
+            "id": "abe7c69a-e3c5-4eeb-ae49-8f6728527def",
+            "asin": null,
+            "cover-art-archive": {
+                "darkened": false,
+                "count": 1,
+                "artwork": true,
+                "front": true,
+                "back": false
+            },
+            "quality": "normal",
+            "status": "Official",
+            "packaging-id": "36327bc2-f691-3d66-80e5-bd03cec6060a",
+            "disambiguation": "",
+            "text-representation": {
+                "language": "eng",
+                "script": "Latn"
+            }
+        },
+        {
+            "date": "2000-07-10",
+            "packaging": "None",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "barcode": "0067003016254",
+            "release-events": [
+                {
+                    "area": {
+                        "type-id": null,
+                        "name": "United States",
+                        "type": null,
+                        "id": "489ce91b-6658-3307-9877-795b68554c98",
+                        "sort-name": "United States",
+                        "iso-3166-1-codes": [
+                            "US"
+                        ],
+                        "disambiguation": ""
+                    },
+                    "date": "2000-07-10"
+                }
+            ],
+            "country": "US",
+            "id": "c1c48ede-5a55-419e-b193-886e96563da5",
+            "title": "Parachutes",
+            "quality": "normal",
+            "cover-art-archive": {
+                "back": false,
+                "front": true,
+                "darkened": false,
+                "artwork": true,
+                "count": 2
+            },
+            "asin": null,
+            "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+            "status": "Official",
+            "disambiguation": "",
+            "text-representation": {
+                "language": "eng",
+                "script": "Latn"
+            }
+        },
+        {
+            "country": "GB",
+            "title": "Brothers & Sisters",
+            "id": "e7498c8d-906d-40af-9a4b-4c79aa708308",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "packaging": null,
+            "date": "1999-04-26",
+            "release-events": [
+                {
+                    "date": "1999-04-26",
+                    "area": {
+                        "iso-3166-1-codes": [
+                            "GB"
+                        ],
+                        "disambiguation": "",
+                        "type": null,
+                        "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+                        "sort-name": "United Kingdom",
+                        "type-id": null,
+                        "name": "United Kingdom"
+                    }
+                }
+            ],
+            "barcode": "5020422196827",
+            "disambiguation": "",
+            "text-representation": {
+                "language": "eng",
+                "script": "Latn"
+            },
+            "asin": "B00004WCQ8",
+            "quality": "high",
+            "cover-art-archive": {
+                "count": 1,
+                "artwork": true,
+                "darkened": false,
+                "front": true,
+                "back": false
+            },
+            "status": "Official",
+            "packaging-id": null
+        },
+        {
+            "text-representation": {
+                "script": null,
+                "language": "eng"
+            },
+            "disambiguation": "",
+            "status": "Official",
+            "packaging-id": "c70b737a-0114-39a9-88f7-82843e54f906",
+            "asin": null,
+            "cover-art-archive": {
+                "front": true,
+                "back": false,
+                "darkened": false,
+                "artwork": true,
+                "count": 1
+            },
+            "quality": "normal",
+            "title": "Yellow",
+            "id": "fe6ef811-fdfc-4903-ad1a-d2af4abd2f59",
+            "country": "GB",
+            "release-events": [
+                {
+                    "date": "2000-06-26",
+                    "area": {
+                        "type-id": null,
+                        "name": "United Kingdom",
+                        "type": null,
+                        "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+                        "sort-name": "United Kingdom",
+                        "disambiguation": "",
+                        "iso-3166-1-codes": [
+                            "GB"
+                        ]
+                    }
+                }
+            ],
+            "barcode": "724388885140",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "packaging": "Cassette Case",
+            "date": "2000-06-26"
+        }
+    ]
+}

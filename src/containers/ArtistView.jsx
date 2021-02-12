@@ -6,8 +6,6 @@ import { useReleases } from '../state/artistHooks';
 
 function ArtistView({ match }) {
   const { loading, releases } = useReleases(match.params.id);
-  console.log(match.params.id);
-
   
   if(loading) return <Loading />;
   return <ReleaseList releases={releases} />;
