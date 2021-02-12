@@ -1,11 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Release from './Release';
+import { Link } from 'react-router-dom';
 
 function ReleaseList({ releases }) {
   const releaseElements = releases.map(release => (
     <li key={release.id} >
-      <Release id={release.id} title={release.title} date={release.date} />
+      <Link to={`/release/${release.id}`} >
+        <Release id={release.id} title={release.title} date={release.date} />
+      </Link>
     </li>
   ));
     
