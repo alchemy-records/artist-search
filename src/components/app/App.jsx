@@ -28,7 +28,7 @@ export default class App extends React.Component {
               component = { ArtistView }
             />
             <Route
-              path="/release/:id" 
+              path="/:artist/release/:id" 
               component = { ReleaseView }
             />
             <Route
