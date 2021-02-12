@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Loading from '../components/loading/Loading';
 import ReleaseList from '../components/release/ReleaseList';
-import { useReleases } from '../state/artistHooks';
+import { useReleases } from '../state/hooks';
 
 function ArtistView({ match }) {
   const { loading, releases } = useReleases(match.params.id);

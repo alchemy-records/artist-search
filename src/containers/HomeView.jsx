@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useArtists } from '../state/artistHooks';
+import { useArtists } from '../state/hooks';
 import ArtistList from '../components/artist/ArtistList';
 
 
@@ -24,7 +24,7 @@ function HomeView() {
           : <ArtistList artists={artists} />
       }
     </>
-  )
+  );
 }
 
 export default HomeView;

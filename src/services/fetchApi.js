@@ -10,3 +10,9 @@ export const getReleasesById = (id) => {
     .then(res => res.json())
     .then(res => res.releases);
 };
+
+export const getSongsById = (id) => {
+  return fetch(`http://musicbrainz.org/ws/2/recording?release=${id}&fmt=json`)
+    .then(res => res.json())
+    .then(res => res.recordings);
+};
