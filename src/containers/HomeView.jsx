@@ -9,15 +9,15 @@ function HomeView() {
   const { loading, artists } = useArtists(name);
 
   const handleChange = ({ target }) => {
-    setName(target.value)
-  }
+    setName(target.value);
+  };
 
   return (
     <>
       <input
-        type='text'
+        type="text"
         value={name}
-        placeholder='Search By Artist'
+        placeholder="Search By Artist"
         onChange={handleChange} />
       {
         loading && (name) ? <h1>loading</h1>
