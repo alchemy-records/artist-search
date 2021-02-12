@@ -24,7 +24,7 @@ export default class App extends React.Component {
               component = { HomeView }
             />
             <Route
-              path="/artist/:id" 
+              path="/:artist/:id" 
               component = { ArtistView }
             />
             <Route
