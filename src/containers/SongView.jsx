@@ -15,9 +15,5 @@ SongView.propTypes = {
   id: PropTypes.string.isRequired
 }.isRequired;
 
-SongView.propTypes = {
-
-};
-
 export default SongView;
 

@@ -63,7 +63,7 @@ export const useSongs = (id) => {
   };
 };
 
-export const useLyrics = (artist, title) => {
+export const useLyrics = (artist = 'Coldplay', title = 'Yellow') => {
   const [loading, setLoading] = useState(true);
   const [lyrics, setLyrics] = useState({});
 
