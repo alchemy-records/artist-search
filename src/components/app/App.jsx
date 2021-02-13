@@ -24,15 +24,15 @@ export default class App extends React.Component {
               component = { HomeView }
             />
             <Route
-              path="/:artist/:id" 
+              exact path="/:artist/:id" 
               component = { ArtistView }
             />
             <Route
-              path="/:artist/release/:id" 
+              exact path="/:artist/releases/:id" 
               component = { ReleaseView }
             />
             <Route
-              path="/song/:id" 
+              exact path="/:artist/release/:song/:id" 
               component = { SongView }
             />
           </Switch>
