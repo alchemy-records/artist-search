@@ -20,7 +20,7 @@ describe('ArtistView container', () => {
   it('renders Releases on the page by id in url params', async() => {
     render(
       <MemoryRouter>
-        <ArtistView match={{ params: { id: 'cc197bad-dc9c-440d-a5b5-d52ba2e14234' } }} />
+        <ArtistView match={{ params: { id: 'cc197bad-dc9c-440d-a5b5-d52ba2e14234',  artist: 'Coldplay' } }} />
       </MemoryRouter>);
 
     screen.getByAltText('loading');

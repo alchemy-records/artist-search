@@ -20,7 +20,10 @@ describe('ReleaseView container', () => {
   it('renders Songs on the page by id in url params', async() => {
     render(
       <MemoryRouter>
-        <ReleaseView match={{ params: { id: '00b396e1-9907-42f8-abfb-3ef846e0681b' } }} />
+        <ReleaseView match={{ params: { 
+          id: '00b396e1-9907-42f8-abfb-3ef846e0681b', 
+          artist: 'Coldplay',
+          release: 'Parachute' } }} />
       </MemoryRouter>);
 
     screen.getByAltText('loading');

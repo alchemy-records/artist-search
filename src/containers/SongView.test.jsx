@@ -4,6 +4,7 @@ import { rest } from 'msw';
 import { setupServer } from 'msw/node';
 import SongView from './SongView';
 import lyricsData from '../fixtures/lyrics.json';
+import { MemoryRouter } from 'react-router-dom';
 
 const server = setupServer(
   rest.get('https://api.lyrics.ovh/v1/coldplay/yellow', (req, res, ctx) => {
@@ -17,7 +18,9 @@ describe('SongView container', () => {
   
   it('renders lyrics on the page by song title and artist name', async() => {
     render(
-      <SongView /> 
+      <MemoryRouter>
+        <SongView match={{ params: { artist: 'Coldplay', song: 'Yellow' } }} /> 
+      </MemoryRouter>
     );
 
     screen.getByAltText('loading');
