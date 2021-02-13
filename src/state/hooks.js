@@ -2,7 +2,7 @@
 import { useState, useEffect } from 'react';
 import { getArtistsByName, getReleasesById, getSongsById, getLyrics } from '../services/fetchApi';
 
-export const useArtists = (name) => {
+export const useArtists = (name, page) => {
   const [loading, setLoading] = useState(true);
   const [artists, setArtists] = useState([]); 
 
@@ -10,12 +10,12 @@ export const useArtists = (name) => {
   useEffect(() => {
     if(!name) return;
     setLoading(true);
-    getArtistsByName(name)
-      .then(releases => {
+    getArtistsByName(name, page)
+      .then(artists => {
         setLoading(false);
-        setArtists(releases);
+        setArtists(artists);
       });
-  }, [name]);
+  }, [name, page]);
 
   return {
     loading,
