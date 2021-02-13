@@ -6,18 +6,19 @@ import { useReleases } from '../state/hooks';
 
 function ArtistView({ match }) {
   const { loading, releases } = useReleases(match.params.id);
-  
+
   if(loading) return <Loading />;
   return <ReleaseList 
     releases={releases} 
-    artist={match.params.name}/>;
+    artist={match.params.artist}/>;
 }
 
 ArtistView.propTypes = {
   match: PropTypes.shape({
     params: PropTypes.shape({
       id: PropTypes.string.isRequired,
-      name: PropTypes.string.isRequired
+      artist: PropTypes.string.isRequired
+      // release: PropTypes.string.isRequired
     }).isRequired
   }).isRequired
 };

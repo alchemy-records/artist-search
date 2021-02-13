@@ -3,14 +3,14 @@ import PropTypes from 'prop-types';
 
 const Lyrics = ({ lyrics }) => {
   return (
-    <div data-testid="lyrics">
+    <pre data-testid="lyrics">
       {lyrics.lyrics}
-    </div>
+    </pre>
   );
 };
 
 Lyrics.propTypes = {
-  lyrics: PropTypes.string.isRequired
+  lyrics: PropTypes.object.isRequired
 };
 
 export default Lyrics;

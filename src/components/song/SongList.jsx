@@ -3,10 +3,11 @@ import PropTypes from 'prop-types';
 import Song from './Song';
 import { Link } from 'react-router-dom';
 
-function SongList({ songs }) {
+function SongList({ songs, artist, release }) {
+
   const songElements = songs.map(song => (
     <li key={song.id} >
-      <Link to={`/song/${song.id}`} >
+      <Link to={`/${artist}/${release}/${song.title}/${song.id}`} >
         <Song id={song.id} title={song.title} />
       </Link>
     </li>
@@ -22,7 +23,9 @@ SongList.propTypes = {
   songs: PropTypes.arrayOf(PropTypes.shape({
     id: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
-  })).isRequired
+  })).isRequired,
+  artist: PropTypes.string.isRequired,
+  release: PropTypes.string.isRequired
 };
 
 export default SongList;
