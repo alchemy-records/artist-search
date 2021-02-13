@@ -7,7 +7,7 @@ function ReleaseList({ releases, artist }) {
 
   const releaseElements = releases.map(release => (
     <li key={release.id} >
-      <Link to={`/${artist}/releases/${release.id}`} >
+      <Link to={`/${artist}/${release.title}/${release.id}`} >
         <Release id={release.id} title={release.title} date={release.date} />
       </Link>
     </li>

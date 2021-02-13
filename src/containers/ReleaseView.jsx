@@ -5,21 +5,22 @@ import SongList from '../components/song/SongList';
 import { useSongs } from '../state/hooks';
 
 function ReleaseView({ match }) {
-  console.log('match', match.params.artist);
 
   const { loading, songs } = useSongs(match.params.id);
-  console.log('songs', songs);
-
 
   if(loading) return <Loading />;
-  return <SongList songs={songs} artist={match.params.artist} />;
+  return <SongList 
+    songs={songs} 
+    artist={match.params.artist} 
+    release={match.params.release}/>;
 }
 
 ReleaseView.propTypes = {
   match: PropTypes.shape({
     params: PropTypes.shape({
       id: PropTypes.string.isRequired,
-      artist: PropTypes.string.isRequired
+      artist: PropTypes.string.isRequired,
+      release: PropTypes.string.isRequired
     }).isRequired
   }).isRequired
 };

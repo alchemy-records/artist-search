@@ -28,11 +28,11 @@ export default class App extends React.Component {
               component = { ArtistView }
             />
             <Route
-              exact path="/:artist/releases/:id" 
+              exact path="/:artist/:release/:id" 
               component = { ReleaseView }
             />
             <Route
-              exact path="/:artist/release/:song/:id" 
+              exact path="/:artist/:release/:song/:id" 
               component = { SongView }
             />
           </Switch>
